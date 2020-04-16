@@ -1,0 +1,6 @@
+name: TrackSystem
+version: "1.0"
+api: ["1.0.9"]
+author: Josewowgame
+main: nukkit.jose.track.Loader
+description: Track Player

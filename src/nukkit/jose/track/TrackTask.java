@@ -19,8 +19,12 @@ public class TrackTask extends Task {
                         player.teleport(new Vector3(track.x,track.y,track.z));
                     }
 
-                    if(track.getLevel().getFolderName() != player.getLevel().getFolderName()) {
+                    if (track.getLevel().getFolderName() != player.getLevel().getFolderName()) {
                         player.teleport(track.getLevel().getSpawnLocation());
+                    }
+
+                    if (player.getGamemode() != Player.SPECTATOR) {
+                        player.setGamemode(Player.SPECTATOR);
                     }
                 } else {
                     Loader.remove(player);

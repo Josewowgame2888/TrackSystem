@@ -16,7 +16,7 @@ public class Loader extends PluginBase {
     @Override
     public void onEnable() {
         instance = this;
-        this.getServer().getLogger().info(TextFormat.GREEN+"TrackSystem enable by Josewowgame");
+        this.getServer().getLogger().info(TextFormat.GREEN+"TrackSystem enable by Josewowgame & NaviMoon9797");
         this.getServer().getCommandMap().register("nukkit",new TrackCommand("track"));
         this.getServer().getScheduler().scheduleRepeatingTask(new TrackTask(),15);
         new TrackEvent();

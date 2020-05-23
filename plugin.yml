@@ -1,5 +1,5 @@
 name: TrackSystem
-version: "1.1"
+version: "2.0"
 api: ["1.0.9"]
 author: Josewowgame
 main: nukkit.jose.track.Loader
